@@ -1,1 +1,76 @@
 # 🌍 Portfolio interactif – Oscar Otele# mon-portfolio-interactif
+Bienvenue sur mon portfolio personnel, conçu pour présenter mes projets, mon parcours, mes passions et mes engagements dans les domaines de la technologie, de l'éducation et de la culture.
+
+---
+
+## 🎯 Objectif du projet
+
+Ce portfolio vise à :
+- Mettre en valeur mes compétences en développement web, robotique, électronique et slam.
+- Offrir une navigation immersive à travers mes réalisations (Pixys+, ICARE, LE DISC, etc.).
+- Proposer une expérience utilisateur fluide, responsive et enrichie par des éléments visuels et sonores.
+
+---
+
+## 🧰 Technologies utilisées
+
+- **HTML5 / CSS3** : structure et mise en page responsive
+- **JavaScript (Vanilla)** : interactivité, animations, logique dynamique
+- **Vercel** : hébergement et déploiement rapide
+- **UI/UX Design** : conception centrée utilisateur, accessibilité, storytelling visuel
+
+---
+
+## 📁 Structure du projet
+
+/portfolio-oscar │ 
+├── index.html # Page d'accueil 
+├── projets.html # Présentation des projets 
+├── passions.html # Centres d’intérêt et engagements 
+├── parcours.html # Frise chronologique académique et professionnelle
+├── contact.html # Formulaire et infos de contact │
+├── style.css # Feuille de style principale
+├── projets.js # Script dynamique pour les cartes projets
+├── parcours.js # Script pour la timeline │
+└── asset/ 
+         ├── img/ # Logos, icônes, photos 
+         └── doc/ # cv en français et en anglais
+         └── audio/ # Slam, musique (à venir)
+
+---
+
+## 🚀 Déploiement
+
+Le projet est déployé sur [Vercel](https://vercel.com) à l’adresse suivante :  
+🔗 [http://mon-portfolio-interactif.vercel.app]
+
+---
+
+## 🔗 Projets associés
+
+- [Tips & Tricks JS](https://tips-en-tricks-de-js-1gws.vercel.app)
+- [Quelques projets JS](https://quelques-projets-js.vercel.app)
+- [Élection présidentielle 2025](http://election-presidentielle-2025-camero.vercel.app)
+
+---
+
+## 📬 Me contacter
+
+- ✉️ Email : [vibndi437@gmail.com](mailto:vibndi437@gmail.com)
+- 🔗 LinkedIn : [linkedin.com/in/oscar-emmanuel-ndi-otele](https://www.linkedin.com/in/oscar-emmanuel-ndi-otele-aa5433234/)
+
+---
+
+## 🧠 À venir
+
+- Intégration d’un lecteur audio pour mes textes de slam
+- Ajout de badges interactifs pour chaque projet
+- Version anglaise du portfolio
+- Timeline animée pour les distinctions et formations
+
+---
+
+## © 2025 – BlackPegasus
+
+Ce projet est développé avec passion pour inspirer, connecter et valoriser l’innovation locale au Cameroun et en Afrique.
+         
