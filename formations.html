@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formations et Compétences – Oscar Otele</title>
+  <link rel="stylesheet" href="formations.css" />
+</head>
+<body>
+  <header class="page-header">
+    <div class="top-bar">
+      <p><span class="section-title">Formations</span> & Compétences <span class="author">by Oscar OTELE</span></p>
+    </div>
+    <h1>Mes Formations et Compétences</h1>
+    <nav>
+      <a href="index.html" class="back-link">← Retour au portfolio</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="grid-section">
+      <h2>Domaines de formation</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Sciences fondamentales</h3>
+          <p>Mathématiques, physique, logique et raisonnement scientifique.</p>
+          <div class="progress-bar">
+          <div class="progress" data-value="80">80%</div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Génie mécanique & productique</h3>
+          <p>Conception, fabrication, optimisation des systèmes mécaniques.</p>
+           <div class="progress-bar">
+          <div class="progress" data-value="70">70%</div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Robotique & électronique</h3>
+          <p>Prototypage, microcontrôleurs, capteurs, automatisation locale.</p>
+          <div class="progress-bar">
+          <div class="progress" data-value="75">75%</div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Sciences sociales & littérature</h3>
+          <p>Analyse des sociétés, culture, expression poétique et slam.</p>
+          <div class="progress-bar">
+          <div class="progress" data-value="30">30%</div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Informatique</h3>
+          <p>HTML, CSS, JavaScript, UI/UX, développement web interactif.</p>
+          <div class="progress-bar">
+          <div class="progress" data-value="35">35%</div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Soft Skills</h3>
+          <p>Communication, leadership, gestion de projet, esprit critique.</p>
+          <div class="progress-bar">
+          <div class="progress" data-value="90">90%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+<script>
+    // Animation des jauges de compétence
+document.querySelectorAll('.progress').forEach(bar => {
+  const value = bar.getAttribute('data-value');
+  setTimeout(() => {
+    bar.style.width = value + '%';
+  }, 300); // délai pour effet visuel
+});
+
+</script>
+  <footer>
+    <p>&copy; 2025 BlackPegasus — Tous droits réservés.</p>
+  </footer>
+</body>
+</html>

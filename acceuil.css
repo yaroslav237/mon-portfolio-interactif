@@ -1,0 +1,255 @@
+/* style.css */
+
+/* Général */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #003366;
+  margin: 0;
+  padding: 0;
+}
+
+/* Bande supérieure */
+.top-bar {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.author {
+  font-weight: normal;
+  opacity: 0.8;
+}
+
+/* En-tête */
+header {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #e6f0ff;
+}
+
+h1 {
+  margin-top: 10px;
+  font-size: 28px;
+}
+
+/* Menu */
+nav {
+  margin-top: 20px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.menu li a {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #003366;
+  padding: 10px 15px;
+  border: 2px solid #003366;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.menu li a:hover {
+  background-color: #003366;
+  color: white;
+}
+
+.menu-toggle {
+  display: none;
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  width: 100%;
+}
+
+/* Contenu principal */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+  background-color: #e6f0ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Listes */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #ffffff;
+  margin: 8px 0;
+  padding: 10px;
+  border-left: 5px solid #003366;
+  color: #003366;
+}
+
+/* Formulaire */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border: 1px solid #003366;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #003366;
+}
+
+form button {
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0055aa;
+}
+
+/* Pied de page */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+  }
+
+  .menu.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+
+/* Photo de profil */
+.photo-profil {
+  position: absolute;
+  top: 103px;
+  left: 12px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  border: 3px #003366 solid;
+}
+
+.photo-profil img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photo-profil:hover {
+  transform: scale(1.5);
+  transition: transform 0.3s ease;
+}
+
+
+header {
+  position: relative;
+  padding-left: 90px; /* espace pour la photo */
+}
+
+/* Carte projet */
+.projet-card {
+  background-color: #ffffff;
+  border: 2px solid #003366;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  color: #003366;
+}
+
+/* En-tête du projet */
+.projet-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+/* Logo du projet */
+.projet-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+/* style cv */
+.cv-links ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.cv-links li {
+  margin-bottom: 8px;
+}
+
+.cv-links a {
+  color: #003366;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+}
+
+.cv-links a:hover {
+  border-bottom: 2px solid #003366;
+}
+
+/* style logo udemy et dclic*/
+
+.sous-logos {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.sous-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.sous-logo:hover {
+  transform: scale(1.1);
+}
